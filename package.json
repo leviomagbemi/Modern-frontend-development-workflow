@@ -1,0 +1,26 @@
+{
+  "name": "modern-frontend-development-workflow",
+  "version": "1.0.0",
+  "description": "This is a modern frontend development workflow that compiles ES6 and ES7 down to ES5. It uses webpack and babel to transpile and bundle the code. It includes dev dependencies such as @babel/core, @babel/polyfill, @babel/preset-env, @babel/preset-stage-0, babel-loader, css-loader, html-webpack-plugin, style-loader, webpack, webpack-cli, and webpack-dev-server. The build script runs webpack to bundle the code, and the start script runs webpack-dev-server and opens the project in a browser. The workflow is licensed under the MIT license.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack server --open"
+  },
+  "author": "Levi Omagbemi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
